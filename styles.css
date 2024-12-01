@@ -1,0 +1,63 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto", serif;
+}
+
+/* Navbar styling */
+.navbar {
+  min-height: 80px;
+  background-color: rgb(131 110 90 / 77%);
+  user-select: none;
+  font-size: 1.6rem;
+  padding: 0rem 2rem 0rem 2rem;
+}
+
+.navbar-nav {
+  gap: 15px;
+}
+
+.nav-link {
+  padding: 0;
+}
+
+.nav-link:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer-section {
+  background-color: #1e0f00;
+  color: white;
+  padding: 20px 0;
+  min-height: 200px;
+}
+
+.footer-section h5 {
+  font-weight: bold; /* Bold titles */
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer-section ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px; /* Space between list items */
+}
+
+.footer-section ul li a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.footer-section ul li a:hover {
+  color: #0056b3; /* Darker link color on hover */
+}
+
